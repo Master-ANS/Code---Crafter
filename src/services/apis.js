@@ -1,6 +1,7 @@
 // process.env.config();
 
-const BASE_URL = process.env.REACT_APP_BACKEND_BASE_URL
+const BASE_URL = 'https://codecrafter-backend1-ludf.onrender.com';
+
 
 
 // AUTH ENDPOINTS
