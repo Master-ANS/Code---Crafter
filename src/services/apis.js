@@ -5,7 +5,7 @@ const BASE_URL = 'https://codecrafter-backend1-ludf.onrender.com';
 
 
 // AUTH ENDPOINTS
-export const authEndpoints = {
+export const authEndpoincts = {
     SENDOTP_API: BASE_URL + "/auth/generateOtp",
     SIGNUP_API: BASE_URL + "/auth/signIn",
     LOGIN_API: BASE_URL + "/auth/logIn",

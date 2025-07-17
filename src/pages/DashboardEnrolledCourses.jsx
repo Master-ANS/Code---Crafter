@@ -59,7 +59,7 @@ function DashboardEnrolledCourses()
         const response = await axios(
             {
              method:"GET",
-             url:'http://localhost:4000/api/v1/profile/getUserDetails',
+             url:'https://codecrafter-backend1-ludf.onrender.com/api/v1/profile/getUserDetails',
              headers:{
                  Authorisation: `Bearer ${token}`,
              }

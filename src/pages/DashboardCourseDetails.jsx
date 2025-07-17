@@ -57,7 +57,7 @@ function DashboardCourseDetails()
         const apiKeyResult = await axios(
             {
                 method:'get',
-                url:'http://localhost:4000/api/v1/payment/getApiKey',
+                url:'https://codecrafter-backend1-ludf.onrender.com/api/v1/payment/getApiKey',
                 headers:{
                        Authorisation: `Bearer ${token}`
                 }
@@ -70,7 +70,7 @@ function DashboardCourseDetails()
         const resultOrder = await axios(
             {
                 method:'post',
-                url:'http://localhost:4000/api/v1/payment/capturePayment',
+                url:'https://codecrafter-backend1-ludf.onrender.com/api/v1/payment/capturePayment',
                 data:{
                     courses:[course._id]
                 },
